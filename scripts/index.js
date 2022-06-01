@@ -1,5 +1,5 @@
 
-// subscribe button to go on the dummy page
+// Trending button to go on the trending page
 let GoTrending = () => {
     window.location.href = "./trending.html"
 }
