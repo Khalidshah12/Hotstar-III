@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hotstar</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/c0b6ca2d16.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="leftNav">
+            <ul id="firstul">
+                <li id="menu">
+                    <i class="fa-solid fa-bars"></i>
+                    <ul class="dropdown">
+                        <li><a href="./dummy.html">Channels</a></li>
+                        <li><a href="./dummy.html">Languages</a></li>
+                        <li><a href="./dummy.html">Genres</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="./index.html">
+                        <img src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg"
+                            alt="Home Page">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./dummy.html">TV</a>
+                    <ul class="dropdown">
+                        <li><a href="./dummy.html">StarPlus</a></li>
+                        <li><a href="./dummy.html">Quix</a></li>
+                        <li><a href="./dummy.html">Asianet</a></li>
+                        <li><a href="./dummy.html">More...</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="./dummy.html">Movies</a>
+                    <ul class="dropdown">
+                        <li><a href="./dummy.html">Hindi</a></li>
+                        <li><a href="./dummy.html">English</a></li>
+                        <li><a href="./dummy.html">Malayalam</a></li>
+                        <li><a href="./dummy.html">Telugu</a></li>
+                        <li><a href="./dummy.html">Kanada</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="./dummy.html">Sports</a>
+                    <ul class="dropdown">
+                        <li><a href="./dummy.html">Cricket</a></li>
+                        <li><a href="./dummy.html">Football</a></li>
+                        <li><a href="./dummy.html">Kabaddi</a></li>
+                        <li><a href="./dummy.html">Hockey</a></li>
+                        <li><a href="./dummy.html">Tenis</a></li>
+                        <li><a href="./dummy.html">Chess</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="./dummy.html">Disney+</a></li>
+
+                <li><a id="kids" href="./dummy.html">Kids</a></li>
+            </ul>
+        </div>
+
+        <div id="rightNav">
+            <div id="rightnavdiv">
+                <!-- <div id="inputList"> -->
+                <input type="text" oninput="debauncing(getData,500)" onclick="serachDiv()" id="search"
+                    placeholder="Search">
+                <!-- </div> -->
+
+                <button id="subscribe" onclick="GoTrending()">Trending Movies</button>
+
+                <div id="login"><a id="logina" href="./dummy.html">LOGIN</a></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="movie">
+        <!-- movie details after click -->
+        <div id="movieDetail"></div>
+
+        <!-- recommendation -->
+        <div id="movieDiv">
+            <!-- <div id="list"></div> -->
+        </div>
+    </div>
+
+    <!-- Slideshow Container -->
+    <div id="Slideshow">
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+                <img
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/2732/1122732-h-e1113b315b96">
+            </div>
+            <div class="mySlides">
+                <img
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/480/1250480-h-7aa44ec06f31">
+            </div>
+            <div class="mySlides">
+                <img
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/old_images/SHOW/655/655/655-h">
+            </div>
+            <div class="mySlides">
+                <img
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/5210/1165210-h-a72a0a95461e">
+            </div>
+            <div class="mySlides">
+                <img
+                    src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/1011/1251011-h-9085e36cc443">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="./index.js"></script>

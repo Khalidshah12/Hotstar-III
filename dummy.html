@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Page</title>
+    <style>
+        img {
+            display: block;
+            margin: auto;
+            margin-top: 100px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        button{
+            display: block;
+            margin: auto;
+            width: 10%;
+            margin-top: 30px;
+            height: 40px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background-color:turquoise;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(12, 172, 156);
+            color: white;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="https://cdn.dribbble.com/users/1499090/screenshots/8050538/media/12aa43bdaab5ab719ffb8fefed40a7b3.jpg?compress=1&resize=400x300"
+        alt="Dummy Image">
+        <button onclick="goBack()">Go Back</button>
+</body>
+
+</html>
+
+<script>
+    let goBack = () =>{
+        window.location.href = "./index.html"
+    }
+</script>

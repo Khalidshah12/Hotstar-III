@@ -1,0 +1,117 @@
+/* Slideshow START  */
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.mySlides>img {
+    width: 100%;
+    height: 500px;
+}
+
+/* Slideshow END */
+
+
+/* Search recommendation Div Start */
+
+#movie {
+    position: sticky;
+    top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#list {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    color: white;
+    border: 1px solid white;
+    border-color: #141b29;
+    background: linear-gradient(to bottom, #141b29, #0c111b 300px);
+    overflow: scroll;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#list::-webkit-scrollbar {
+    width: 0 !important
+}
+
+#noResultDiv{
+    color:white;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background: linear-gradient(to bottom, #1c2638, #0c111b 300px);
+    border-radius: 5px;
+}
+
+.recommendDiv {
+    display: flex;
+    margin-top: 5px;
+    background: linear-gradient(to bottom, #1c2638, #0c111b 300px);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recommendDiv>h4 {
+    width: 60%;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.posterimg {
+    height: 90px;
+    width: 170px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* Search recommendation Div End */
+
+/* Movie detail after click CSS0 START */
+#moviebox {
+    width: 100%;
+    margin-left: 15px;
+    color: rgb(221, 212, 212);
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#movietitleDiv {
+    padding-left: 20px;
+    padding-top: 10px;
+    color: lightsalmon;
+    overflow: hidden;
+}
+
+#movietitleDiv>p {
+    margin-top: 10px;
+}
+
+#imgDiv>img {
+    height: 350px;
+    width: 350px;
+}
+
+span {
+    font-weight: normal;
+    color: white;
+}
+
+/* Movie detail after click CSS0 END */
